@@ -1,11 +1,11 @@
-import Tamagotchi from './components/Tamagotchi.tsx'
+import TamagotchiComponent from './components/Tamagotchi.tsx'
+import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>RPG</h1>
-      <Tamagotchi/>
+      <TamagotchiComponent/>
     </>
   )
 }

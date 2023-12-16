@@ -3,3 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-size: 22px;
+}
+
+.main--color{
+  background-color:#f3d2c1 ;
+}
+
+.tamagotchi__actions--color{
+  background-color:#fef6e4 ;
+}
+
+.tamagotchi__attribute{
+  @apply flex flex-col w-1/2 items-center;
+}
